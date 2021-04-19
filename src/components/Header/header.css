@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
+
+.logo-title {
+    padding-left: 15rem;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-bar {
+    justify-content: space-around;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;    
+    
+}
+
+.nav-bar img {
+    width: 45px;
+    height: 35px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color : #e1267b;
+    font-family: 'Zen Dots', serif;
+    font-size: 30px;
+}
+
+.right-icons {
+    margin-right: 17rem;
+}
+
+@media (max-width : 775px) {
+
+    
+
+    .right-icons {
+        margin-right: 0;
+    }
+
+    .logo-title {
+        padding-left: 2rem;   
+    }
+
+    
+    
+}

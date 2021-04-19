@@ -1,0 +1,29 @@
+.health-flex img {
+    width: 40px;
+    height: 30px;
+}
+
+.health-flex {
+    display: flex;
+    align-items: center;
+    
+}
+
+.health-flex {
+    display: flex;
+    justify-content: space-around;
+    border-bottom : .5px solid rgba(128, 128, 128, 0.541);
+}
+
+.health-flex img {
+    margin-left: -3rem;
+}
+.recent-activity .white-container {
+    height: 170px;
+}
+
+@media (max-width : 1250px) {
+    .health-flex img {
+        margin-left: 0rem;
+    }
+}
