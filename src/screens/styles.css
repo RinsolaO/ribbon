@@ -1,0 +1,152 @@
+.container {
+    background: #d9d9d9;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    right: 25rem;
+    top: 4rem;
+}
+
+@media (max-width : 1500px) {
+    .container {
+        
+        width: 700px;    
+    
+    }
+    
+}
+
+@media (max-width : 1450px) {
+    .container {
+        
+        width: 500px;  
+        right: 30.5rem;  
+    
+    }
+    
+}
+
+@media (max-width : 1400px) {
+    .container {
+        
+        left: 27rem;   
+    
+    }
+    
+}
+
+@media (max-width : 1350px) {
+    .container {
+        left: 25rem;   
+    }
+    
+}
+
+@media (max-width : 1280px) {
+    .container {
+        left: 23rem;   
+    }
+    
+}
+
+
+@media (max-width : 1250px) {
+    .container {
+        width: 400px;
+        right: 10rem;   
+    }
+    
+}
+
+@media (max-width : 1200px) {
+    .container {
+        left: 23rem;   
+    }
+    
+}
+
+@media (max-width : 1050px) {
+    .container {
+        left: 20rem;   
+    }
+    
+}
+
+@media (max-width : 1024px) {
+    .container {
+        left: 19rem;   
+    }
+    
+}
+
+@media (max-width : 950px) {
+    .container {
+        left: 18rem;   
+    }
+    
+}
+
+@media (max-width : 900px) {
+    .container {
+        left: 15rem;   
+    }
+    
+}
+
+
+@media (max-width : 768px) {
+    .container {
+        left: 12rem;
+    }
+}
+
+@media (max-width : 600px) {
+    .container {
+        left: 8rem;
+    }
+}
+
+@media (max-width : 550px) {
+    .container {
+        left: 6rem;
+    }
+}
+
+@media (max-width : 530px) {
+    .container {
+        left: 5rem;
+    }
+}
+
+@media (max-width : 500px) {
+    .container {
+        left: 3.5rem;
+    }
+}
+
+
+
+@media (max-width : 482px) {
+    .container {
+        left: 3rem;
+    }
+}
+
+@media (max-width : 450px) {
+    .container {
+        left: 1rem;
+    }
+}
+
+@media (max-width : 400px) {
+    .container {
+        width: 350px;
+        left: 1;
+    }
+}
+
+@media (max-width : 325px) {
+    .container {
+        left: .2rem;
+    }
+}

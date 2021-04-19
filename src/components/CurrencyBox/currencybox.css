@@ -1,0 +1,52 @@
+.mini-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "grid-left grid-right";
+    background-color: #e1267b;
+    color: white;
+    border-radius: 30px;
+    padding-top: 5px;
+    
+}
+
+.white-container {
+    background: white;
+    height: 200px; 
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-left: 6.3rem;    
+    border-radius: 50%; 
+}
+
+.circle h5 {
+    padding-top: 10px;    
+}
+
+.grid-left h5 {
+    color: #e7343c;
+}
+
+.grid-right h5 {
+    color: #25b4f5;
+}
+
+
+.grid-left {
+    grid-area: grid-left;  
+    border-right: 1px solid rgba(255, 255, 255, 0.473); 
+}
+
+.grid-right {
+    grid-area: grid-right;
+}
+
+@media (max-width : 1024px) {
+    .circle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
